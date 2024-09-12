@@ -4,7 +4,8 @@
 
 This project utilizes the `python-docx` library to manipulate Microsoft Word (.docx) documents programmatically. The code is designed to help automate tasks such as creating, modifying, and extracting data from `.docx` files, streamlining workflows and improving efficiency when dealing with Word documents.
 I Used python code to add a dictionary with `Species type` and `Containdicated medications`. It takes the name of species and the name of medication in addition to if this medication is contraindicated in a specific condition and if there are any notes on this condition.
-<span style="color:'red'">Output is in a form of a table</span>
+I used chat-gpt to get a dictionary containing keys as "Species Names". And values as lists of tuples containing the information of the medicaion.
+And to make the code more readable. I used typing library and OOP (Object-Oriented Programming)
 
 ## What is `python-docx`?
 
